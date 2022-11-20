@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Open+Sans:ital@0;1&display=swap');
+
+body {
+	width:100%;
+	height: 100vh;
+	background-color: #CCC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main h1 {
+	font-family: Fragment Mono;
+}
+
+.num.color {
+	width:50px;
+	height:50px;
+	padding: 10px;
+	margin: 2px;
+	border-radius: 25%;
+	outline: none;
+	font-size: 20px;
+	font-family: Fragment Mono;
+	font-weight: bold;
+	background-color: #CCC;
+}
+
+.operator.color {
+	width:50px;
+	height:50px;
+	padding: 10px;
+	margin: 2px;
+	border-radius: 25%;
+	font-size: 20px;
+	font-family: Fragment Mono;
+	font-weight: bold;
+	background-color: #77F;
+	outline: none;
+}
+
+.text {
+	width: 145px;
+	height: 15px;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	font-family: Fragment Mono;
+}
+
+.text1 {
+	width:40px;
+	height: 40px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	font-size: 22px;
+	font-family: Fragment Mono;
+	font-weight: bold;
+	text-align: center;
+	outline: none;
+	border: 1px solid #000;
+	border-radius: 50%;
+	border: 2px solid #222;
+	background-color: #77F;
+	cursor: pointer;
+}

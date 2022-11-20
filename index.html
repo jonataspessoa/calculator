@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora</title>
+	<link rel="Stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+	<main>
+
+		<h1>Calculadora</h1>
+		<form action="" name="Calculator">
+
+			<input type="text" class="text color" name="text1" disabled>
+			<input type="text" class=" text1 color" name="btn12" value="C" onclick="location.reload()"><br/>
+
+			<input type="button" class="num color" name="btn7" value="7" onclick="displayNum(btn7.value)">
+			<input type="button" class="num color" name="btn8" value="8" onclick="displayNum(btn8.value)">
+			<input type="button" class="num color" name="btn9" value="9" onclick="displayNum(btn9.value)">
+			<input type="button" class="operator color" name="btndiv" value="/" onclick="displayNum(btndiv.value)"><br/>
+
+			<input type="button" class="num color" name="btn4" value="4" onclick="displayNum(btn4.value)">
+			<input type="button" class="num color" name="btn5" value="5" onclick="displayNum(btn5.value)">
+			<input type="button" class="num color" name="btn6" value="6" onclick="displayNum(btn6.value)">
+			<input type="button" class="operator color" name="btnmtp" value="*" onclick="displayNum(btnmtp.value)"><br/>
+
+			<input type="button" class="num color" name="btn1" value="1" onclick="displayNum(btn1.value)">
+			<input type="button" class="num color" name="btn2" value="2" onclick="displayNum(btn2.value)">
+			<input type="button" class="num color" name="btn3" value="3" onclick="displayNum(btn3.value)">
+			<input type="button" class="operator color" name="btnsub" value="-" onclick="displayNum(btnsub.value)"><br/>
+
+			<input type="button" class="operator color" name="btndot" value="." onclick="displayNum(btndot.value)">
+			<input type="button" class="num color" name="btn0" value="0" onclick="displayNum(btn0.value)">
+			<input type="button" class="operator color" name="btneql" value="=" onclick="text1.value=eval(text1.value)">
+			<input type="button" class="operator color" name="btnplus" value="+" onclick="displayNum(btnplus.value)"><br/>
+		</form>
+	</main>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
